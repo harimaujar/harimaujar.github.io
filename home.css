@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow: hidden;
+    min-height: 100px;
+}
+
+#background{
+    background: url(image/background.jpg) no-repeat center;
+    height: 100%;
+    background-size: cover;
+    opacity: 0.8;
+    clear: both; /* gak ngaruh untuk terpisah dengan h1. HELP */
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+#container{
+    text-align: center;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    font-weight: 900;
+    font-weight: bolder;
+    font-size: 200px;
+    display: flexbox;
+}
+
+#container h3{
+    font-size: 100px;
+    margin-bottom: 200px;
+    text-align: center;
+    margin-top: 240px;
+}
+
+#footer{
+    text-align: center;
+    display: flex;                  /* agar konten jadi responsif */
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 50px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%
+}
+
+#footer p{
+    margin-top: 10px;
+}
